@@ -1,0 +1,46 @@
+{"teamMembers": [
+  {
+    "image": "images/bathroom3.jpg",
+    "name": "Renovations & Remodling"
+  },
+  {
+    "image": "images/Deck1.jpg",
+    "name": "Flooring"
+  },
+  {
+    "image": "images/Drywall1.jpg",
+    "name": "Drywall Finishing"
+  },
+  {
+    "image": "images/Bathroom3.jpg",
+    "name": "Painting"
+  },
+  {
+    "image": "images/Siding1.jpg",
+    "name": "Additions"
+  },
+  {
+    "image": "images/Deck1.jpg",
+    "name": "Deck Installation"
+  },
+  {
+    "image": "images/Siding1.jpg",
+    "name": "Shingles and Roofing"
+  },
+  {
+    "image": "images/Bricks1.jpg",
+    "name": "Landscaping"
+  },
+  {
+    "image": "images/PictureNeeded.jpg",
+    "name": "Plumbing"
+  },
+  {
+    "image": "images/PictureNeeded.jpg",
+    "name": "Electrition"
+  },
+  {
+    "image": "images/PictureNeeded.jpg",
+    "name": "And More!"
+  }
+]}

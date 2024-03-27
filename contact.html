@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Red Ray Construction</title>
+    <link rel="icon" href="images/RedRayLogo.png">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesMain.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JavaScript/mobileNavFunction.js"></script>
+    <script src="javaScript/jquery.validate.min.js"></script>
+    <script src="javaScript/additional-methods.min.js"></script>	
+    <script src="javaScript/formValidation.js"></script>
+
+    <script> $(function(){ $("#nav").load("assets/nav.html");  }); </script> 
+    <script> $(function(){ $("#footer").load("assets/footer.html");  }); </script> 
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div id="nav"></div>
+
+    <div id="container">
+      <main>
+        <form action="php/formEmail.php" method="POST" id="contact_form">
+          <h2 class="center"><b>Have Questions?</b></h2> 
+          <p class="center">Contact us for any questions or to book an on site quote.</p>
+          
+          <br><br>
+
+          <a href="tel:1-226-349-3484">226-349-3484</a><br>
+          <a href="mailto:contact@redrayconstruction.ca">contact@redrayconstruction.ca</a><br>
+
+          <br>
+
+          <fieldset>
+            <legend><h3 class="smallbubble">General Information:</h3></legend>
+            <label for="fName">First Name:</label>
+            <input type="text" name="fName" id="fName"><br>
+
+            <label for="lName">Last Name:</label>
+            <input type="text" name="lName" id="lName"><br>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" name="phone" id="phone"><br>
+          </fieldset>
+
+          <br>
+
+          <fieldset>
+            <legend><h3 class="smallbubble">Preference:</h3></legend>
+
+            <div class="radioStyle">
+              <input type="radio" id="pref1" name="contactPref" value="emailPref" checked>
+              <label for="pref1">Email:</label><br>
+              <input type="radio" id="pref2" name="contactPref" value="phonePref">
+              <label for="pref2">Phone:</label><br>
+            </div>
+          </fieldset>
+
+          <br>
+
+          <fieldset>
+            <legend><h3 class="smallbubble">Questions?</h3></legend>
+            <textarea id="questions" name="questions" rows="6" cols="50"></textarea>
+          </fieldset>
+
+          </br></br></br>
+          
+          <input type="submit" id="submit" value="Submit Form" class="btn">
+          <input type="reset" id="reset" value="Reset Form" class="btn">
+
+        </form>
+        
+      </main>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+
+</html>

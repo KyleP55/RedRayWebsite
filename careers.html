@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Red Ray Construction</title>
+    <link rel="icon" href="images/RedRayLogo.png">
+    <meta charset="utf-8">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/stylesMain.css">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="JavaScript/accordion.js"></script>
+    <script src="JavaScript/mobileNavFunction.js"></script>
+
+    <script> $(function(){ $("#nav").load("assets/nav.html");  }); </script> 
+    <script> $(function(){ $("#footer").load("assets/footer.html");  }); </script> 
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body>
+    <div id="nav"></div>
+
+    <div id="container">
+      <main>
+        <form  method="POST">
+          <h2 class="left"><b>We're Hiring!</b></h2> 
+          <p class="left">Are you skilled in renovations or willing to learn? Drop us a resume.</p>
+          
+          <br></br></br></br>
+
+          <label for="myfile">Upload your resume</label>
+          <input type="file" id="myFile" name="filename">
+
+          <br></br></br></br>
+
+          <label for="questions">Comments</label>
+          <textarea id="questions" name="questions" rows="6" cols="50"></textarea>
+
+          </br></br></br>
+
+          <input type="submit" id="submit" value="Submit Form" class="btn">
+          <input type="reset" id="reset" value="Reset Form" class="btn">
+
+        </form>
+        
+      </main>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+
+</html>
